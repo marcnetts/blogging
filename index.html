@@ -18,15 +18,18 @@ Os testes de software de um sistema distribuído devem levar em conta como cada 
 <h3>Segurança</h3>
 Apenas os componentes que se integram ao sistema ou aqueles autorizados pelo desenvolvedor devem conversar e mandar informações sensíveis pela rede. A segurança de dados físicos também deve levar em conta cada componente que as possui.
 
+<p>https://www.atlassian.com/br/microservices/microservices-architecture/distributed-architecture</p>
+
 <h1>gRPC</h1>
-https://www.zup.com.br/blog/grpc-o-que-e-beagle
 O gRPC é uma estrutura de programação distribuída RPC (chamadas remotas) para comunicação entre microsserviços, com a proposta de que o cliente interaja com o servidor por chamadas de funções simples, geradas automaticamente pela própria aplicação; assim, é apenas necessário implementar sua lógica de programação, facilitando a adoção desse recurso. Ele pode conectar serviços dentro e entre data centers com suporte para balanceamento de carga, rastreamento, verificação de integridade e autenticação. Também é aplicável na última milha de computação distribuída para conectar dispositivos, aplicativos móveis e navegadores a serviços de back-end. Algumas vantagens do gRPC para a arquitetura de microsserviços são o fácil contato entre clientes e servidores, melhor desempenho dos serviços e features nativas do HTTP/2, como streaming de dados, monitoramento entre outros.
 
 <h2>Alternativas do gRPC</h2>
 <h3>REST</h3>
 O Representational State Transfer (REST) é o estilo de arquitetura de software mais comum em web services, que define um conjunto de restrições a serem usadas para a criação de web services. O que mais diverge o gRPC do REST é que, com gRPC, são usados caminhos estáticos para um melhor desempenho durante o despacho de chamadas, já que a análise de path params, query params e payload adicionam latência e complexidade à comunicação entre serviços. Também há um conjunto de erros que são mais diretamente aplicáveis ​​a APIs do que os convencionalmente utilizados no REST.
-<h3>SOAP
+<h3>SOAP</h3>
 O SOAP (Simple Object Access Protocol) é o sistema mais velho de acesso a dados por XML e HTTP, da época que a internet era mais concentrada em universidades, mas algumas de suas desvantagens de que dados por XML são mais verbosos de serem criados e a falta de suporte a linguagens modernas.
+
+<p>https://www.zup.com.br/blog/grpc-o-que-e-beagle</p>
 
 <h1>Apache Kafka</h1>
 
@@ -39,8 +42,8 @@ O Amazon Kinesis transmite, coleta, processa e analisa fluxos de vídeo e dados 
 <h3>RabbitMQ</h3>
 O RabbitMQ é um agente de mensagens de código aberto que pode ser facilmente implantado na nuvem. Além de oferecer suporte a serviços de mensagens assíncronas, oferece uma boa experiência de desenvolvedor com Java, Go, Python, Ruby etc. Como os desenvolvedores usam amplamente o Kafka com vários idiomas, ele é executado em diferentes sistemas operacionais e infraestrutura em nuvem. O RabbitMQ também pode ser implementado em um ambiente distribuído para alta disponibilidade.
 
-https://dev.to/andreidascalu/soap-vs-rest-vs-grpc-vs-graphql-1ib6
-https://kafka.apache.org/documentation/
-https://hevodata.com/learn/kafka-alternatives/
+<p>https://dev.to/andreidascalu/soap-vs-rest-vs-grpc-vs-graphql-1ib6</p>
+<p>https://kafka.apache.org/documentation/</p>
+<p>https://hevodata.com/learn/kafka-alternatives/</p>
 </body>
 </html>
