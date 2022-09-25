@@ -15,14 +15,14 @@ Se uma API lida com vários grupos de dados, cada microsserviço se especializar
 Microsserviços permitem que máquinas e memórias diferentes sejam utilizadas no lugar de serviços compartilharem a mesma memória.
 
 ## Monitoramento
-Microsserviços exigem mais instãncias de monitoramento, porém é possível identificar melhor qual parte de um sistema está em gargalo ou indisponível.
+Microsserviços exigem mais instâncias de monitoramento, porém é possível identificar melhor qual parte de um sistema está em gargalo ou indisponível.
 
 ## Escalabilidade
 Um microsserviço com mais carga de trabalho pode ser escalado individualmente ao invés do sistema inteiro.
 
 ## Conhecimento
 Como sistemas monolíticos são os mais apresentados em cursos de programação, são os mais comuns em habilidades de devs. É por parte o motivo da arquitetura monolítica ser a mais popular.
-Microsserviços também exigem uma qualificação maior para assegurar o funcionamento de todas partes, mas a complexidade do sistema é distribuída para cada componente e separa-se a atuação de cada desenvolvedor em um projeto.
+Microsserviços também exigem uma qualificação maior para assegurar o funcionamento de todas partes, mas a complexidade do sistema é distribuída para cada componente e separa-se a atuação de cada dev em um projeto.
 
 ## Desenvolvimento
 As IDEs são mais habilitadas a desenvolver sistemas monolíticos, como por exemplo para refatorar o nome de uma variável. Sistemas monolíticos também são implementados em um único "módulo", mas microsserviços permitem que apenas um componente específico fique indisponível durante sua atualização.
